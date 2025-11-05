@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+  background-image: url(bg-earth-vector.svg);
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  background-attachment: fixed;
+
+  background-size: cover;
+
+}
+
+/* navbar start */
+
+.navbar{
+  background-color: rgb(221, 221, 221);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: top 0.3s;
+  z-index: 999;
+}
+
+img{
+    width: 75px;
+    height: 75px;
+}
+
+.collapse .navbar-nav .nav-item .nav-link{
+    color: black;
+    font-size: 1rem;
+}
+
+.collapse .navbar-nav .nav-item .nav-link:hover {
+  color: orange;
+}
+
+.collapse .navbar-nav .nav-item:last-child .nav-link:hover {
+  color: black;
+  
+}
+
+
+/* navbar end */
+
+
+
+
+
+/* content 1 start */
+
+.bg-image {
+      background-image: url('shutterstock_774965164\ \(1\).jpg'); 
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      position: relative;
+      color: white;
+}
+
+.bg-overlay {
+      position: absolute;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.5); 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+}
+
+
+
+/* content 1 end */
+
+
+/* content 2 start */
+
+.content-2{
+  background-image: url();
+  height: 1000px;
+  padding: 3rem 0 0 0;
+}
+
+.content-2 h1{
+  font-weight: bold;
+}
+
+
+
+
+.Card{
+  background-color: white;
+  width: 25rem;
+  height: 40rem;
+  border: 1px solid rgb(41, 33, 33);
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  flex-shrink: 0;
+  
+
+
+  
+}
+
+.Card:hover{
+   transform: translateY(-10px);
+   transition: 1s;
+   box-shadow: rgba(0, 0, 0, 0.349);
+   overflow: hidden;
+}
+
+.Card img{
+  width: 100%;
+  height: 15rem;
+ 
+}
+
+.Card img:hover{
+  transform: scale(1.1);
+  transition: 1s;
+  border-radius: 0.5rem;
+}
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.scroll-button.left {
+      left: 1px;
+    }
+    .scroll-button.right {
+      right: 1px;
+    }
+
+
+.text .top p{
+  color: rgb(156, 153, 153);
+}
+
+hr{
+  margin-top: 1rem;
+}
+
+.text .bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* content 2 end */
+
+
+
+
+/* content 3 */
+
+h2{
+  font-weight: bold;
+}
+
+
+/* content 3 */
+
+
+
+
+/* content 4 start */
+
+.img-layanan{
+  width: 250px;
+  height: 300px;
+}
+
+.row .col-md-6 .my-3{
+  color: rgb(155, 151, 151);
+}
+
+
+
+
+/* content 4 end */
+
+
+
+/* footer start */
+
+
+footer {
+      background-color: #006666;
+      color: white;
+      padding: 40px 0;
+    }
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    .social-icons i {
+      font-size: 24px;
+      margin-right: 15px;
+    }
+    .subscribe-btn {
+      background-color: #ffc107;
+      border: none;
+      color: #000;
+      padding: 10px 20px;
+    }
+    .subscribe-btn:hover {
+      background-color: #e0a800;
+    }
+    .copyright {
+      border-top: 1px solid rgba(255,255,255,0.2);
+      margin-top: 20px;
+      padding-top: 20px;
+      text-align: center;
+    }
+
+/* footer end */
